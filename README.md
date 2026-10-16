@@ -1,6 +1,20 @@
 ## Usage Examples
 
-### 1. Sorting an array
+# Kotlin Wrapper for java.util.Arrays
+
+A Kotlin/JVM command-line application and wrapper library around `java.util.Arrays` focusing on Java interoperability, defensive copying, precondition checks, and explicit result typing.
+
+## Prerequisites
+- JDK 21
+- Gradle (use the included `./gradlew` / `gradlew.bat` wrapper)
+
+## Build and Run
+
+### Run Automated Tests
+```bash
+./gradlew test
+```
+
 Ascending:
 ```bash
 ./gradlew run --args='sort 3,1,2'
